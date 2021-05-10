@@ -30,7 +30,7 @@ public class Theatre {
         if(nombreClients < capacitePersonneMax){
            totalInscrit = nombreClients; // Mise à jour du nombre yotal des clients inscrits
             recetteTotale = nombreClients * prixPlace; // La recette totale de l'tablissement
-            System.out.println("Le nombre inscrits est égale à  " + nombreClients + " personnes et la recette totale est de  " + recetteTotale + "euros");
+            System.out.println("Il y a " + nombreClients + " personnes inscrites pour une recette totale de  " + recetteTotale + "euros");
 
 
         }else{

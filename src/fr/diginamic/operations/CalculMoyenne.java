@@ -32,16 +32,14 @@ public class CalculMoyenne {
 
         if(this.monTab == null){ // Si le tableau est vide , on stocke le premier élement
             this.monTab = new double[] {d};
-        }else{ //on crée une nouveau tableau puis on ajoute l'eleement
+        }else{ //on crée une nouveau tableau puis on ajoute l'element
             double [] newTab = new double[this.monTab.length + 1];
 
             //remplir le tableau avec les elements
             for(int i = 0; i<this.monTab.length; i++){
                 newTab[i] = this.monTab[i];
-
             }
             //Ajouter la nouvelle valeur
-
             newTab[this.monTab.length] = d;
 
             //Reaffectation du nouveau tableau
